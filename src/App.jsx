@@ -24,7 +24,7 @@ function App() {
     setResult(null);
 
     try {
-      const res = await axios.post("http://paddyscan-api.everlinesystems.in/predict", formData);
+      const res = await axios.post("https://paddyscan-api.everlinesystems.in/predict", formData);
       setResult(res.data);
     } catch (err) {
       alert("Error connecting to PaddyScan server.");
