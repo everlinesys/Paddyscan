@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-import Dashboard from "./pages/dashboard";
+import Dashboard from "./pages/Dashboard";
 import Upload from "./pages/Upload";
 import Result from "./pages/Result";
 import History from "./pages/History";
