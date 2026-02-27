@@ -16,7 +16,7 @@ function App() {
 
     try {
       const res = await axios.post(
-        "http://localhost:9001/predict",
+        "http://paddyscan-api.everlinesystems.in/predict",
         formData
       );
 
